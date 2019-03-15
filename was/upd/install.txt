@@ -1,0 +1,6 @@
+-OPT checkFilePermissions="true"
+-W maintenance.package="/opt/IBM/UpdateInstaller/maintenance"
+-OPT disableNonBlockingPrereqChecking="true"
+-OPT rootUserHasRunSlibcleanCommandSuccessfully="true"
+-W product.location="/opt/IBM/WebSphere/AppServer"
+-W update.type="install"
