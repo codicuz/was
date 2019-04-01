@@ -62,7 +62,8 @@ RUN echo 111 \
   && while killall java; do sleep 5; done \
   && echo 1717171717seventeen \
   && /was/wp/updportal/updatePortal.sh -fixpack -install -installDir /opt/IBM/WebSphere/PortalServer/ -fixpackDir /was/wp/Portal_FIXPACK/ -fixpackID WP_PTF_6106 \
-  && eighteen \
+  && echo eighteen \
+  && while killall java; do sleep 5; done \
   && tar -C /opt -cvzf /opt/IBM.tgz IBM
 
 FROM base
