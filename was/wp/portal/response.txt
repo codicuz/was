@@ -8,7 +8,7 @@
 -W wasAdmin.user="wpsadmin"
 -W wasAdmin.password="password"
 -W nodeHost.nodeName="DefaultNode01"
-#-W nodeHost.hostName="was-v7.myhost.lan"
+-W nodeHost.hostName="was-v7.myhost.lan"
 -W allServices.services="false"
 -W cdSetup.cdPath="/was/wp/portal/IL-Setup"
 -W userInputCDLocWas.cdPath="/was/wp/portal/IL-2"
