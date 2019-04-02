@@ -1,0 +1,2 @@
+s/WasPassword=ReplaceWithYourPwd/WasPassword=password/
+s/PortalAdminPwd=ReplaceWithYourPwd/PortalAdminPwd=password/
