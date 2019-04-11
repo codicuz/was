@@ -1,6 +1,5 @@
 FROM centos:latest as base
 
-
 RUN yum -y install epel-release; \
   yum -y update; \
   yum -y install mc java psmisc python-setuptools zip unzip iproute libgcc libgcc.i686 libX11 libX11.i686 libXext.i686 libXft.i686 gtk2.i686 libXtst.i686 zlib zlib.i686 compat-libstdc++-33-3.2.3-72.el7.i686 supervisor; \
